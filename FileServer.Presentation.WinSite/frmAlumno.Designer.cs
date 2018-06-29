@@ -1,6 +1,6 @@
 ﻿namespace FileServer.Presentation.WinSite
 {
-    partial class Form1
+    partial class frmAlumno
     {
         /// <summary>
         /// Variable del diseñador necesaria.

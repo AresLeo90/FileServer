@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FileServer.Infrastructure.Repository
 {
-    public class Class1
+    interface IAlumnoRepository
     {
     }
 }

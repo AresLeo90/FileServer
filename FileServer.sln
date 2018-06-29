@@ -15,6 +15,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{93040E5F-0C8C-4277-954E-6D6549B29919}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{FD7592C7-D372-48EA-9ED4-9E14787205F1}"
+	ProjectSection(SolutionItems) = preProject
+		FileServer.Infrastructure.Repository\IAlumnoRepository.cs = FileServer.Infrastructure.Repository\IAlumnoRepository.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{6E86996D-2AB0-44CF-BB01-2C458E09B105}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +48,8 @@ Global
 		{0DB42B63-7700-4873-9C50-5386C2398E24} = {B3264AE2-2AA9-4F61-BA32-D21C348F657D}
 		{9B719B41-B50B-486B-8DE7-EB49B39A77D4} = {4E03AC4D-F365-4804-AA15-48D81BF1AA27}
 		{31F14475-848A-4D98-8FCE-DF86C061FADC} = {93040E5F-0C8C-4277-954E-6D6549B29919}
+		{FD7592C7-D372-48EA-9ED4-9E14787205F1} = {4E03AC4D-F365-4804-AA15-48D81BF1AA27}
+		{6E86996D-2AB0-44CF-BB01-2C458E09B105} = {4E03AC4D-F365-4804-AA15-48D81BF1AA27}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8CA0D89C-E293-4FF4-9507-4BC7DB9EE0BF}
