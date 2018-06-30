@@ -43,5 +43,11 @@
     <Compile Include="IAlumnoRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FileServer.Common.Model\FileServer.Common.Model.csproj">
+      <Project>{31f14475-848a-4d98-8fce-df86c061fadc}</Project>
+      <Name>FileServer.Common.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
